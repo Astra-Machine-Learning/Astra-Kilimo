@@ -3,3 +3,4 @@ twilio==8.10.0
 requests==2.31.0
 google-generativeai==0.3.2
 python-dotenv==1.0.1
+web: gunicorn index:app
