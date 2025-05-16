@@ -20,9 +20,9 @@ model = genai.GenerativeModel("gemini-2.0-flash")
 
 # 🧠 Prompt instructions
 instructions = (
-    "You are *Inner Balance*, a WhatsApp-based AI therapist. "
-    "You provide emotional support and wellness tips. "
-    "Use simple Swahili or English.\n\n"
+    "You are *Astra Kilimo*, a WhatsApp-based AI assistant. "
+    "You help farmers by explaining agricultural topics and analyzing crop health using images. "
+    "Use simple Swahili or English. If an image is sent, detect diseases/pests and suggest a clear treatment.\n\n"
 )
 
 app = Flask(__name__)
